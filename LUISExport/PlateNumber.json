@@ -1,0 +1,386 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "PlateNumber",
+  "desc": "PlateNumber",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "Help"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "ShowCityName"
+    },
+    {
+      "name": "ShowPlateNumber"
+    }
+  ],
+  "entities": [
+    {
+      "name": "City"
+    },
+    {
+      "name": "Plate Number"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "hi",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "please help me",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "help",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "help me",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "36",
+      "intent": "ShowCityName",
+      "entities": [
+        {
+          "entity": "Plate Number",
+          "startPos": 0,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "show me the help",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "heyhey",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "ankara",
+      "intent": "ShowPlateNumber",
+      "entities": [
+        {
+          "entity": "City",
+          "startPos": 0,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "what's the plate number of istanbul?",
+      "intent": "ShowPlateNumber",
+      "entities": [
+        {
+          "entity": "City",
+          "startPos": 27,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "show me the plate of ankara",
+      "intent": "ShowPlateNumber",
+      "entities": [
+        {
+          "entity": "City",
+          "startPos": 21,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "what's plate number of konya?",
+      "intent": "ShowPlateNumber",
+      "entities": [
+        {
+          "entity": "City",
+          "startPos": 23,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "plate number of antalya?",
+      "intent": "ShowPlateNumber",
+      "entities": [
+        {
+          "entity": "City",
+          "startPos": 16,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "plate number of adana?",
+      "intent": "ShowPlateNumber",
+      "entities": [
+        {
+          "entity": "City",
+          "startPos": 16,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "what about konya?",
+      "intent": "ShowPlateNumber",
+      "entities": [
+        {
+          "entity": "City",
+          "startPos": 11,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "what's the plate number of ankara?",
+      "intent": "ShowPlateNumber",
+      "entities": [
+        {
+          "entity": "City",
+          "startPos": 27,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "show me istanbul plate number",
+      "intent": "ShowPlateNumber",
+      "entities": [
+        {
+          "entity": "City",
+          "startPos": 8,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "please show me the city for 42",
+      "intent": "ShowCityName",
+      "entities": [
+        {
+          "entity": "Plate Number",
+          "startPos": 28,
+          "endPos": 29
+        }
+      ]
+    },
+    {
+      "text": "which city is using 34?",
+      "intent": "ShowCityName",
+      "entities": [
+        {
+          "entity": "Plate Number",
+          "startPos": 20,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "which city is using 42 plate",
+      "intent": "ShowCityName",
+      "entities": [
+        {
+          "entity": "Plate Number",
+          "startPos": 20,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "which city is using 42?",
+      "intent": "ShowCityName",
+      "entities": [
+        {
+          "entity": "Plate Number",
+          "startPos": 20,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "what about 42",
+      "intent": "ShowCityName",
+      "entities": [
+        {
+          "entity": "Plate Number",
+          "startPos": 11,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "what about 6?",
+      "intent": "ShowCityName",
+      "entities": [
+        {
+          "entity": "Plate Number",
+          "startPos": 11,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "which city is using 42",
+      "intent": "ShowCityName",
+      "entities": [
+        {
+          "entity": "Plate Number",
+          "startPos": 20,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "what about 01 ?",
+      "intent": "ShowCityName",
+      "entities": [
+        {
+          "entity": "Plate Number",
+          "startPos": 11,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "which city is using 06?",
+      "intent": "ShowCityName",
+      "entities": [
+        {
+          "entity": "Plate Number",
+          "startPos": 20,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "show me the plate number of istanbul",
+      "intent": "ShowPlateNumber",
+      "entities": [
+        {
+          "entity": "City",
+          "startPos": 28,
+          "endPos": 35
+        }
+      ]
+    },
+    {
+      "text": "what about 01?",
+      "intent": "ShowCityName",
+      "entities": [
+        {
+          "entity": "Plate Number",
+          "startPos": 11,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "what about ankara?",
+      "intent": "ShowPlateNumber",
+      "entities": [
+        {
+          "entity": "City",
+          "startPos": 11,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "what's the plate number of İzmir?",
+      "intent": "ShowPlateNumber",
+      "entities": [
+        {
+          "entity": "City",
+          "startPos": 27,
+          "endPos": 31
+        }
+      ]
+    },
+    {
+      "text": "what's the plate of adana",
+      "intent": "ShowPlateNumber",
+      "entities": [
+        {
+          "entity": "City",
+          "startPos": 20,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "what's the plate of ankara",
+      "intent": "ShowPlateNumber",
+      "entities": [
+        {
+          "entity": "City",
+          "startPos": 20,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "what's the plate number of muş?",
+      "intent": "ShowPlateNumber",
+      "entities": [
+        {
+          "entity": "City",
+          "startPos": 27,
+          "endPos": 29
+        }
+      ]
+    },
+    {
+      "text": "what's the plate number of ankara ?",
+      "intent": "ShowPlateNumber",
+      "entities": [
+        {
+          "entity": "City",
+          "startPos": 27,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "what's the plate of mus",
+      "intent": "ShowPlateNumber",
+      "entities": [
+        {
+          "entity": "City",
+          "startPos": 20,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "which city is using 44",
+      "intent": "ShowCityName",
+      "entities": [
+        {
+          "entity": "Plate Number",
+          "startPos": 20,
+          "endPos": 21
+        }
+      ]
+    }
+  ]
+}
